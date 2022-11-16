@@ -14,13 +14,13 @@
 </head>
 <body>
     <h3>Calcule o seu peso ideal <span>AGORA</span>!!!</h3>
-    Sua altura: <input id="n1"><br>
-    Qual é seu o sexo: <input id="n2">
-    <!--
-    <label for="n2"> Masculino</label>
-    <input type="checkbox" id="n3" name="Feminino">
-    <label for="n3">Feminino</label> 
-    !-->
+    Sua altura: <input id="n1" required><br>
+    Qual é seu o sexo: <input list="sexo" id="n2" required>
+    <datalist id="sexo">
+        <option value="Feminino">
+        <option value="Masculino">
+    </datalist>
+
     <br>
     <button type="button" onclick="Exibir()">Calcular</button>
     <div id="resposta"></div>
