@@ -10,4 +10,4 @@ function ligar() {
         document.getElementById('lamp').src = imagem_ligado;
     }
 }
-document.getElementById("lamp").addEventListener("click", ligar);
+document.getElementById("lamp").addEventListener("mousemove", ligar);
