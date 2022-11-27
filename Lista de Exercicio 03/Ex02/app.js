@@ -4,7 +4,9 @@ function Exibir(){
 
     if (valor1 >= 1){
         document.getElementById("resposta").innerHTML = "Seu numero é positivo";
-    } else if (){
-        document.getElementById("resposta").innerHTML = valor2;
+    } else if (valor1 <= -1){
+        document.getElementById("resposta").innerHTML = "Seu numero é negativo";
+    } else if(valor1 == 0){
+        document.getElementById("resposta").innerHTML = "Seu numero é neutro";
     }
 }
