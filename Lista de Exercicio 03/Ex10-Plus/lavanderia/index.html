@@ -18,13 +18,13 @@
                 <p class="paragrafo">Programa para calcular o valor devido.</p>
             </header>
             <div class="div-input">
-                <input placeholder="VALOR POR KILO" id="n1" required><br>
-                <input placeholder="PESO DA ROUPA" id="n2" required><br>
-                <button type="button" onclick="Exibir()">Calcular</button>
+                <input type="number" placeholder="  VALOR POR KILO" min="0" id="n1" required><br>
+                <input type="number" placeholder="  PESO DA ROUPA" min="0" id="n2" required><br>
             </div>
-        </div>
-        <div id="div-resposta">
-            <h6>R$ <span id="resposta"></span></h6>
+            <div class="div-resultado">
+                <button id="botao" type="button" onclick="Exibir()">Calcular</button>
+                <h6 class="h6-resposta">R$ <span id="resposta"></span></h6>
+            </div>
         </div>
 
         <script src="app.js"></script>
