@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #F5B905;
+    padding: 20px;
+    width: 100%;
+}
+
+.conteudo {
+    box-shadow: 1px 2px 3px 2px rgb(88, 88, 88);
+    border-radius: 15px;
+    width: 1000px;
+    height: 700px;
+    margin: 30px;
+}
+
+#tabela {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#nome,
+#email,
+#numero,
+#cidade,
+#acao {
+    background-color: #F5B905;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cadastrar1 {
+    background-color: #1FB3F4;
+    color: white;
+    margin: 30px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}

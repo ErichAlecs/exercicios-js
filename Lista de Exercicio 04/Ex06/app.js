@@ -10,7 +10,6 @@ function cadastrar(nome, email, numero, cidade) {
     var cellnumero = linha.insertCell(3);
     var cellcidade = linha.insertCell(4);
 
-    cellCodigo.innerHTML = qtdLinhas;
     cellNome.innerHTML = nome;
     cellemail.innerHTML = email;
     cellnumero.innerHTML = numero;
@@ -18,6 +17,11 @@ function cadastrar(nome, email, numero, cidade) {
 
 }
 
-function cadastrar1(){
-    document.getElementById("formulario").innerHTML
-}
+let buttonB = document.getElementById("cadastrar1");
+
+buttonB.addEventListener("click", function() {
+    
+    let formulario = document.getElementById("formulario");
+
+    formulario.classList.toggle("hide");
+});
